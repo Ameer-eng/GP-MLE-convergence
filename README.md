@@ -23,10 +23,23 @@ This repository contains the code necessary for running the simulations in our s
 
 Ensure your environment is set up with the following packages:
 
-- matplotlib
-- numpy
-- scipy
-- time
+- NumPy version: 1.20.3
+- SciPy version: 1.7.1
+- Matplotlib version: 3.4.3
+- Scikit-learn version: 0.24.2
 
 ## Instructions to run
 Create directories named "boxplots" and "results", then run each ipynb file. 
+
+## Estimated Runtime
+- **4.1**
+  - `rbf.ipynb` - 3 minutes
+  - `damped-periodic.ipynb` - 6 minutes
+  - `periodic.ipynb` - 6 minutes
+  - `rational-quadratic.ipynb` - 4 minutes
+
+- **4.2**
+  - `gp-for-ml.ipynb` - 81 minutes
+
+- **4.3**
+  - `cosine.ipynb` - 5 minutes
