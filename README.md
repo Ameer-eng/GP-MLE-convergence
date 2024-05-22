@@ -1,11 +1,11 @@
 # Beyond Matérn: Advancing Identifiability and Interpretability in Gaussian Processes
 
-This repository houses the complete codebase and estimated parameters for the research study titled “Beyond Matérn: Advancing Identifiability and
+This repository houses the complete codebase for the research study titled “Beyond Matérn: Advancing Identifiability and
 Interpretability in Gaussian Processes”. 
 
 ## Repository Structure
 
-This directory contains the code necessary for running the simulations in our study.
+This repository contains the code necessary for running the simulations in our study.
 
 - **4.1**
   - `rbf.ipynb` - Python script for generating Figure 1(a)
@@ -27,3 +27,6 @@ Ensure your environment is set up with the following packages:
 - numpy
 - scipy
 - time
+
+## Instructions to run
+Create directories named "boxplots" and "results", then run each ipynb file. 
